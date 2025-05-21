@@ -31,7 +31,6 @@ python -m venv venv
 
 3. Activate the virtual environment:
 - Windows: `venv\Scripts\activate`
-- Mac/Linux: `source venv/bin/activate`
 
 4. Install dependencies:
 ```
@@ -119,7 +118,6 @@ For testing, use the following login:
 3. **Shopping Experience**: Adding products to cart, adjusting quantities, and removing items
 4. **Checkout Process**: Address entry, order review, and order placement
 5. **Order Management**: Order history viewing and status tracking
-6. **Admin Functions**: Product management, inventory control, and order processing
 
 ## Use Cases
 
@@ -128,13 +126,6 @@ For testing, use the following login:
 - **Small-scale Farmers**: Access to bulk ordering of essential agricultural inputs
 - **Commercial Growers**: Enterprise accounts with customized pricing
 - **Educational Institutions**: Special packages for agricultural programs and research
-
-### For Business Owners
-- **Inventory Management**: Track stock levels and get alerts for low inventory
-- **Sales Analytics**: Monitor product performance and customer purchasing patterns
-- **Marketing Campaigns**: Run promotions and discounts on specific product categories
-- **Customer Relationship**: Build customer profiles based on purchase history
-- **Supply Chain**: Manage relationships with suppliers and track incoming inventory
 
 ## Known Issues and Limitations
 
@@ -153,12 +144,3 @@ For testing, use the following login:
 - **Browser Compatibility**: Optimized for modern browsers; may have issues with older versions
 - **Image Optimization**: Large product images may affect page load performance
 - **API Rate Limiting**: No rate limiting implemented for API endpoints
-
-## Troubleshooting
-
-### Fixing Common Errors
-1. **Backend Connection Errors**
-   - Make sure both backend and frontend are running
-   - Verify that the API URL in .env.local is correct
-   - Check for CORS issues in the browser console
-   - For Windows users, try using `start.bat` which opens separate terminal windows for better visibility into errors 
